@@ -8,7 +8,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login </title>
+    <title>Sign Up</title>
 	<!--
     Template 2105 Input
 	http://www.tooplate.com/view/2105-input
@@ -18,43 +18,46 @@
     <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" href="css/tooplate.css">
 </head>
-
-<body id="login">
+<body id="register">
     <div class="container">
-        <div class="row tm-register-row tm-mb-35">
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 tm-login-l">
-                <form action="login" method="post" class="tm-bg-black p-5 h-100">
-                    <div class="input-field">
-                        <input placeholder="Username" id="username" name="username" type="text" >
-                    </div>
-                    <div class="input-field mb-5">
-                        <input placeholder="Password" id="password" name="password" type="password" >
-                    </div>
-                    <div class="tm-flex-lr">
-                        <a href="#" class="white-text small">Forgot Password?</a>
-                        <button type="submit" class="waves-effect btn-large btn-large-white px-4 black-text rounded-0">Login</button>
-                    </div>
-                </form>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 tm-login-r">
-                <header class="font-weight-light tm-bg-black p-5 h-100">
-                    <h3 class="mt-0 text-white font-weight-light">Login</h3>
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <header class="mb-5">
+                    <h3 class="mt-0 white-text">Sign-up</h3>
+                    
                     
                 </header>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ml-auto mr-0 text-center">
-                <a href="register.html" class="waves-effect btn-large btn-large-white px-4 black-text rounded-0">Create New Account</a>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <form action="Signup1" method="post"><!--lass="tm-signup-form"-->
+                    <div class="input-field">
+                        <input placeholder="Username" id="username" name="username" type="text" >
+                    </div>
+                     <div class="input-field">
+                        <input placeholder="Email" id="email" name="email" type="email" class="validate">
+                    </div>
+                    <div class="input-field">
+                        <input placeholder="Phone" id="phone" name="phone" type="tel" class="validate">
+                    </div>
+                    <div class="input-field">
+                        <input placeholder="Password" id="password" name="password" type="password" >
+                    </div>
+                    <div class="input-field">
+                        <input placeholder="Re-type Password" id="repass" name="repass" type="password" >
+                    </div>
+                   
+                    <div class="text-right mt-4">
+                        <button type="submit" class="waves-effect btn-large btn-large-white px-4 tm-border-radius-0">Sign Up</button>
+                    </div>
+                </form>
             </div>
         </div>
         <footer class="row tm-mt-big mb-3">
-            <div class="col-xl-12 text-center">
-                <p class="d-inline-block tm-bg-black white-text py-2 tm-px-5">
+            <div class="col-xl-12">
+                <p class="text-center grey-text text-lighten-2 tm-footer-text-small">
                     Copyright &copy; 2018 Turn The Page 
                     
-                     
-                    <a rel="nofollow" href="http://tooplate.com" class="tm-footer-link"></a>
+                    
                 </p>
             </div>
         </footer>
@@ -68,6 +71,5 @@
         });
     </script>
 </body>
-
 
 </html>

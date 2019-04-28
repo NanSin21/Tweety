@@ -25,34 +25,32 @@
         <div class="row">
             <div class="col-12">
                 <div class="tm-home-left">
-                    <h1 class="tm-site-title">INPUT</h1>
+                    <h1 class="tm-site-title">Sentimento</h1>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                 <div class="tm-home-left mt-3 font-weight-light">
-                    <p class="tm-mb-35">This is a free <a href="http://www.tooplate.com/view/2105-input">HTML Form Package</a> provided by Tooplate. Five different input forms included.</p>
-                    <p class="tm-mb-35">Feel free to modify and use any form design. Please share it to your friends.</p>
+                    <p class="tm-mb-35">This is a <a href="http://www.tooplate.com/view/2105-input">Web Solution</a>to get the positive sentiment analysis of twitter data. </p>
+                    <p class="tm-mb-35">You can use the data for your further research or use our analyzed data by us as per your requirements.</p>
                     <p>Thank you!</p>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                 <ul class="list-group tm-home-list tm-bg-black font-weight-light">
                     <li class="d-flex justify-content-between align-items-center">
-                        <a href="register.jsp" class="tm-white-text">01. Register</a>
+                        <a href="signup.jsp" class="tm-white-text">01. Register</a>
                     </li>
                     <li class="d-flex justify-content-between align-items-center">
-                        <a href="signup.jsp" class="tm-white-text">02. Sign Up</a>
+                        <a href="login.jsp" class="tm-white-text">02. Sign in</a>
                     </li>
-                    <li class="d-flex justify-content-between align-items-center">
-                        <a href="login.jsp" class="tm-white-text">03. Login</a>
-                    </li>
+                   
                     <!-- <li class="d-flex justify-content-between align-items-center">
                         <a href="survey.html" class="tm-white-text">04. Survey</a>
                     </li> -->
                     <li class="d-flex justify-content-between align-items-center">
-                        <a href="application.jsp" class="tm-white-text">04. Application</a>
+                        <a href="Data.jsp" class="tm-white-text">03. Big Data Tools</a>
                     </li>
                 </ul>
             </div>
@@ -61,8 +59,8 @@
     <footer class="row tm-mt-big mb-3">
         <div class="col-xl-12 text-center font-weight-light">
             <p class="d-inline-block tm-bg-black white-text py-2 tm-px-5">
-                Copyright &copy; 2018 Company Name - Design:
-                <a rel="nofollow" href="http://tooplate.com" class="tm-footer-link">Tooplate</a>
+                Copyright &copy;  Name - Sentimento:
+                <a rel="nofollow" href="http://tooplate.com" class="tm-footer-link">Capstone Project</a>
             </p>
         </div>
     </footer>
